@@ -1,0 +1,121 @@
+.store-page{
+    h2{
+        font-size: 48px;
+        font-weight: 700;
+        margin-top: 96px;
+        margin-bottom: 32px;
+        padding-left: 16px;
+        border-left: 8px solid #9F1213;
+    }
+    .store-select{
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+    }
+    label{
+        font-size: 24px;
+        margin-right: 16px;
+    }
+    select{
+        font-size: 18px;
+        color: #495057;
+        opacity: 0.75;
+        height: 38px;
+        width: 304px;
+        border: 1px solid #CED4DA;
+    }
+    .content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    }
+    .store-item{
+        width: 40.59%;
+        img{
+            display: block;
+        }
+        h3{
+            font-size: 24px;
+            color: #212529;
+            padding: 8px 24px;
+            border: 1px solid #00000020;
+        }
+        ul{
+            font-size: 20px;
+            color: #212529;
+            padding: 16px 24px 8px 24px;
+            border: 1px solid #00000020;
+        }
+        li{
+            margin-bottom: 8px;
+            a{
+                color: #212529;
+            }
+        }
+        i{
+            width: 21px;
+            text-align: center;
+            margin-right: 8px;
+        }
+    }
+    .map{
+        width: 57.56%;
+    }
+}
+
+@media(max-width:1295px){
+    .store-page{
+        h2{
+            margin-top: 80px;
+        }
+        .content{
+            flex-direction: column;
+        }
+        .store-item{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            img{
+                width: 48.42%;
+            }
+            .store-detail{
+                width: 48.42%;
+            }
+        }
+        .map{
+            width: 100%;
+        }
+    }
+}
+@media(max-width:767px){
+    .store-page{
+        h2{
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 24px;
+        }
+        .store-select{
+            margin-bottom: 24px;
+        }
+        label{
+            font-size: 16px;
+            margin-right: 8px;
+        }
+        select{
+            width: 79.31%;
+        }
+        .content{
+            margin-bottom: 64px;
+        }
+        .store-item{
+            flex-direction: column;
+            img{
+                width: 100%;
+            }
+            .store-detail{
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.classic-bar{
+    max-width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    li{
+        width: 33.33%;
+    }
+    a{
+        height: 96px;
+        font-size: 32px;
+        font-weight: 500;
+        color: #000000;
+        display: block;
+        padding: 24px 0;
+        text-align: center;
+        border: 1px solid #DCDCDC;
+    }
+    .active, a:hover{
+        border-bottom: 8px solid #AA0601;
+    }
+}
+@media(max-width:1295px){
+    .classic-bar{
+        a{
+            height: 68px;
+            font-size: 24px;
+            padding: 16px;
+        }
+    }
+}
+@media(max-width:767px){
+    .classic-bar{
+        a{
+            height: 56px;
+            font-size: 16px;
+        }
+    }
+}

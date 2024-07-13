@@ -1,0 +1,116 @@
+.store{
+    h2{
+        font-size: 48px;
+        font-weight: 700;
+        margin-top: 96px;
+        margin-bottom: 32px;
+        padding-left: 16px;
+        border-left: 8px solid #9F1213;
+    }
+    .area-select{
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+    }
+    label{
+        font-size: 24px;
+        margin-right: 16px;
+    }
+    select{
+        font-size: 18px;
+        color: #495057;
+        opacity: 0.75;
+        height: 38px;
+        width: 304px;
+        border: 1px solid #CED4DA;
+    }
+    .store-list{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 32px;
+    }
+    .store-item{
+        width: 32.1%;
+        margin-bottom: 48px;
+        margin-right: 1.22%;
+        img{
+            display: block;
+        }
+        h3{
+            font-size: 24px;
+            color: #212529;
+            padding: 8px 24px;
+            border: 1px solid #00000020;
+        }
+        ul{
+            font-size: 20px;
+            color: #212529;
+            padding: 16px 24px 8px 24px;
+            border: 1px solid #00000020;
+        }
+        li{
+            margin-bottom: 8px;
+            a{
+                color: #212529;
+            }
+        }
+        i{
+            width: 21px;
+            text-align: center;
+            margin-right: 8px;
+        }
+        .store-btn{
+            display: block;
+            font-size: 19px;
+            color: #FFFFFF;
+            background-color: #000000;
+            padding: 16px 0px;
+            line-height: 27px;
+            width: 100%;
+            text-align: center;
+        }
+        .store-btn:hover{
+            background-color: #AA0601;
+        }
+    }
+}
+@media(max-width:1295px){
+    .store{
+        h2{
+            margin-top: 80px;
+        }
+        .store-list{
+            justify-content: space-between;
+        }
+        .store-item{
+            width: 48.42%;
+            margin-right: 0;
+        }
+    }
+}
+@media(max-width:767px){
+    .store{
+        h2{
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 24px;
+        }
+        .area-select{
+            margin-bottom: 24px;
+        }
+        label{
+            font-size: 16px;
+            margin-right: 8px;
+        }
+        select{
+            width: 79.31%;
+        }
+        .store-list{
+            margin-bottom: 40px;
+        }
+        .store-item{
+            width: 100%;
+            margin-bottom: 24px;
+        }
+    }
+}

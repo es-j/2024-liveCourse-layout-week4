@@ -1,0 +1,28 @@
+.blog-bar{
+    color: #FFFFFF;
+    background-color: #650300;
+    font-size: 20px;
+    padding: 13px 0;
+    a{
+        color: #FFFFFF;
+    }
+    i{
+        font-size: 30px;
+    }
+    .content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .blog-category{
+        display: flex;
+        align-items: center;
+        a{
+            margin-right: 48px;
+        }
+    }
+}
+@media(max-width:767px){
+    .blog-bar{
+        display: none;
+    }
+}

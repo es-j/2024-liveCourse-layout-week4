@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>台北中山旗艦店 - 門市據點 | 眼鏡官網</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css'/>
+    </head>
+    <body>
+        <%- include('./layout/header'); -%>
+        
+        <main class="store-page">
+            <div class="container">
+                <h2>門市據點</h2>
+                <div class="store-select">
+                    <label for="area">選擇分店</label>
+                    <select name="store" id="store">
+                        <option value="台北中山旗艦店">台北中山旗艦店</option>
+                        <option value="台北綠園店">台北綠園店</option>
+                        <option value="台中清水旗艦店">台中清水旗艦店</option>
+                        <option value="高雄中正形象店">高雄中正形象店</option>
+                        <option value="高雄夢時代店">高雄夢時代店</option>
+                    </select>
+                </div>
+                <div class="content">
+                    <div class="store-item">
+                        <img src="../assets/images/desktop/storepage-1.png" alt="台北中山旗艦店">
+                        <div class="store-detail">
+                            <h3>台北中山旗艦店</h3>
+                            <ul>
+                                <li><i class="fa-solid fa-phone"></i>電話：<a href="tel:020001234">(02)000-1234</a></li>
+                                <li><i class="fa-regular fa-clock"></i>營業時間：10:00-21:00</li>
+                                <li><i class="fa-solid fa-location-dot"></i><span>地址：台北市中山區南京東路25巷2-1號</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <img src="../assets/images/desktop/storepage-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <%- include('./layout/footer'); -%>
+        <script type="module" src="../main.js"></script>
+    </body>
+</html>

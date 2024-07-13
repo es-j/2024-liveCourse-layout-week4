@@ -1,0 +1,80 @@
+.classic-page{
+    h2{
+        font-size: 42px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 80px;
+    }
+    h3{
+        font-size: 32px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .classic-banner{
+        display: flex;
+    }
+    .classic-banner1, .classic-banner2, .classic-banner3, .classic-banner4{
+        width: 50%;
+        height: 296px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .classic-banner1{
+        background-image: url(../assets/images/desktop/product-header-1.png);
+    }
+    .classic-banner2{
+        background-image: url(../assets/images/desktop/product-header-2.png);
+    }
+    .classic-banner3{
+        background-image: url(../assets/images/desktop/product-header-3.png);
+    }
+    .classic-banner4{
+        background-image: url(../assets/images/desktop/product-header-4.png);
+    }
+}
+@media(max-width:1295px){
+    .classic-page{
+        .classic-banner1{
+            background-image: url(../assets/images/tablet/product-header-1.png);
+        }
+        .classic-banner2{
+            background-image: url(../assets/images/tablet/product-header-2.png);
+        }
+        .classic-banner3{
+            background-image: url(../assets/images/tablet/product-header-3.png);
+        }
+        .classic-banner4{
+            background-image: url(../assets/images/tablet/product-header-4.png);
+        }
+    }
+}
+@media(max-width:767px){
+    .classic-page{
+        h2{
+            font-size: 24px;
+            margin-top: 40px;
+        }
+        h4{
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 24px;
+        }
+        .classic-banner1, .classic-banner2, .classic-banner3, .classic-banner4{
+            height: 136px;
+        }
+        .classic-banner1{
+            background-image: url(../assets/images/mobile/product-header-1.png);
+        }
+        .classic-banner2{
+            background-image: url(../assets/images/mobile/product-header-2.png);
+        }
+        .classic-banner3{
+            background-image: url(../assets/images/mobile/product-header-3.png);
+        }
+        .classic-banner4{
+            background-image: url(../assets/images/mobile/product-header-4.png);
+        }
+    }
+}

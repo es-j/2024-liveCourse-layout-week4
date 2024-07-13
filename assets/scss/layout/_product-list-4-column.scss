@@ -1,0 +1,58 @@
+.product-list-4-column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li{
+        width: 23.61%;
+        margin-bottom: 80px;
+    }
+    img{
+        display: block;
+        width: 100%;
+    }
+    .glasses-detail{
+        display: flex;
+        justify-content: space-between;
+    }
+    h4{
+        font-size: 24px;
+    }
+    p{
+        font-size: 24px;
+        font-weight: 500;
+        color: #AA0601;
+    }
+    .color-list{
+        display: flex;
+    }
+    .color{
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+    }
+    .color{
+        margin-right: 8px;
+    }
+    .choice-1st{
+        background-color: #5F3E2D;
+    }
+    .choice-2nd{
+        background-color: #B75929;
+    }
+}
+@media(max-width:1295px){
+    .product-list-4-column{
+        li{
+            width: 48.28%;
+        }
+    }
+}
+@media(max-width:767px){
+    .product-list-4-column{
+        margin-bottom: 40px;
+        li{
+            width: 100%;
+            margin-bottom: 24px;
+        }
+    }
+}
