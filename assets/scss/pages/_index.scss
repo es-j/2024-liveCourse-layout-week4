@@ -1,5 +1,5 @@
 .banner{
-	background-image: url(../assets/images/desktop/home-header.png);
+	background-image: url(../images/desktop/home-header.png);
 	background-color: #FBF2F2;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -31,12 +31,12 @@
 }
 @media(max-width:1295px){
 	.banner{
-		background-image: url(../assets/images/tablet/home-header.png);
+		background-image: url(../images/tablet/home-header.png);
 	}
 }
 @media(max-width:767px){
 	.banner{
-		background-image: url(../assets/images/mobile/home-header.png);
+		background-image: url(../images/mobile/home-header.png);
 		.content{
 			padding: 144px 0;
 		}
@@ -185,7 +185,7 @@
 }
 
 .co-branding{
-	background-image: url(../assets/images/desktop/background-desktop.png);
+	background-image: url(../images/desktop/background-desktop.png);
 	h3{
 		font-size: 48px;
 		font-weight: 700;
